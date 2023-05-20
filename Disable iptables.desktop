@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Disable iptables
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=true
+Exec=sh -e -c "exec bash \\"\\$(dirname \\"\\$0\\")/disable-iptables.sh\\"" %k
