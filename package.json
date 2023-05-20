@@ -1,0 +1,19 @@
+{
+  "name": "solo-lobby-iptables",
+  "version": "1.0.0",
+  "description": "Gotta be solo",
+  "main": "index.js",
+  "scripts": {
+    "shc:build": "bash ./build.sh",
+    "add:steam": "ts-node ./add-to-steam.ts"
+  },
+  "keywords": [],
+  "author": "TaYaKi71751",
+  "license": "WTFPL",
+  "dependencies": {
+    "@types/node": "^20.2.1",
+    "steam-binary-vdf": "^0.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
