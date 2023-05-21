@@ -1,6 +1,6 @@
 #!/bin/bash
 
-targets=("add-rules" "remove-rules" "enable-iptables" "disable-iptables")
+targets=("add-rules" "remove-rules" "enable-iptables" "disable-iptables" "apply-rules-once")
 
 which shc || (\
 	echo "Install shc ( https://github.com/neurobin/shc )" && \

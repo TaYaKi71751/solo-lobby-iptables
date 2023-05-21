@@ -5,6 +5,7 @@ import path from 'path';
 const shortcuts_to_add = {
 	'Solo Lobby Add Rules': path.join(`${process.env.PWD}`, 'add-rules.out'),
 	'Solo Lobby Remove Rules': path.join(`${process.env.PWD}`, 'remove-rules.out'),
+	'Solo Lobby Apply Rules Once': path.join(`${process.env.PWD}`, 'apply-rules-once.out'),
 	'Enable iptables': path.join(`${process.env.PWD}`, 'enable-iptables.out'),
 	'Disable iptables': path.join(`${process.env.PWD}`, 'disable-iptables.out')
 };
