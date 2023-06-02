@@ -1,5 +1,10 @@
 #!/bin/bash
 
+SHELL_RUN_COMMANDS=`find ~ -maxdepth 1 -name '.*shrc'`
+for shrc in ${SHELL_RUN_COMMANDS[@]};do
+	source ${shrc}
+done
+
 function add_rules(){
 
 source ./remove-rules.sh

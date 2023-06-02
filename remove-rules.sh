@@ -1,5 +1,10 @@
 #!/bin/bash
 
+SHELL_RUN_COMMANDS=`find ~ -maxdepth 1 -name '.*shrc'`
+for shrc in ${SHELL_RUN_COMMANDS[@]};do
+	source ${shrc}
+done
+
 function remove_rules(){
 session_ports=("6672" "61455" "61456" "61457" "61458")
 ports=("--sport" "--dport")
